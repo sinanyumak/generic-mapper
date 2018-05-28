@@ -36,3 +36,11 @@ private GenericMapperService mapperService;
 GenericMapper<Fruit, FruitDto> mapper = mapperService.getMapper( Fruit.class, FruitDto.class );
 ```
 
+
+- You can also inject your `GenericMapper` to your services directly with Spring's injection capabilities.
+
+```java
+@Autowired
+GenericMapper<Fruit, FruitDto> fruitMapper;
+```
+
