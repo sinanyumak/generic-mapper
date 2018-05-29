@@ -12,6 +12,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @ComponentScan( "com.sy.genericmapper" )
-public class GenericMapperTestConfig {
+public class GenericMapperConfig {
 
 }
